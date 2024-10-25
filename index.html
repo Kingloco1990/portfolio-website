@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="media_queries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">
+            <h1>DEV+</h1>
+            <h1>KINGLOCO</h1>
+        </div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="sidebar-nav">
+        <div class="logo">
+            <h1>DEV+</h1>
+            <h1>KINGLOCO</h1>
+        </div>
+        <div class="sidebar-menu">
+            <div class="sidebar-icon" onclick="showSidebar()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div>
+                <ul class="sidebar-links">
+                    <li><a href="#about" onclick="showSidebar()">About</a></li>
+                    <li><a href="#experience" onclick="showSidebar()">Experience</a></li>
+                    <li><a href="#projects" onclick="showSidebar()">Projects</a></li>
+                    <li><a href="#contact" onclick="showSidebar()">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </nav>
+    <section id="profile">
+        <div class="profile-pic-container">
+            <img src="./assets/Ransforda_welbeck.jpg" alt="profile picture">
+        </div>
+        <div class="section-text-container">
+            <p class="section-text-p1">Hello, I am</p>
+            <h1 class="title">Ransford Nii Ayitey Welbeck</h1>
+            <p class="section-text-p2">Backend Developer</p>
+            <div class="btn-container">
+                <button class="btn-type1" onclick="window.open('./assets/resume.pdf')"> Download CV </button>
+                <button class="btn-type2" onclick="location.href='./#contact'"> Contact Info </button>
+            </div>
+            <div class="socials-container">
+                <img class="icon" src="./assets/github-icon.png" alt="github-icon" onclick="location.href='https://github.com/Kingloco1990'">
+                <img class="icon" src="./assets/linkedin-icon.png" alt="linkedin-icon" onclick="location.href='https://www.linkedin.com/in/ing-ransford-nii-ayitey-welbeck-a67427100/'">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section-text-p1">Get to know more</p>
+        <h1 class="title">About me</h1>
+        <div class="about-container">
+            <div class="about-pic-container">
+                <img src="./assets/about_me.png" alt="about-me-pic">
+            </div>
+            <div class="about-text">
+                <p>
+                    I'm Ransford Welbeck, a passionate backend developer from Ghana. 
+                    With a strong foundation in software engineering and a keen interest in
+                    building scalable, efficient, and secure backend systems, I specialize in
+                    creating robust server-side applications that drive seamless user experiences.
+                    Over the years, I have honed my skills in various backend technologies, frameworks,
+                    and databases, continuously learning and adapting to the latest industry trends.
+                    I thrive on solving complex problems and optimizing backend processes to ensure that
+                    every application I work on runs smoothly and efficiently. I'm always eager to take on
+                    new challenges and collaborate with teams to deliver high-quality software solutions.
+                    Whether it's developing APIs, managing databases, or ensuring the integrity and security of data,
+                    I am dedicated to pushing the boundaries of what's possible in backend development. Thank you for
+                    visiting my portfolio! I look forward to connecting with like-minded professionals and exploring
+                    opportunities to innovate and create impactful software solutions.
+                </p>
+            </div>
+        </div>
+        <img class="Arrow icon" src="./assets/keyboard_double_arrow_down.png" alt="arrow-down" onclick="location.href='./#experience'">
+    </section>
+    <section id="experience">
+        <p class="section-text-p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-container">
+            <div class="experience-details-main">
+                <div class="experience-details-secondary">
+                    <h1>Backend Development</h1>
+                    <div class="article-container">
+                        <article>
+                            <img class="icon" src="./assets/python-icon.png" alt="MySQL">
+                            <div>
+                                <h3>Python</h3>
+                                <p>Experience</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img class="icon" src="./assets/Flask-icon.png" alt="MySQL">
+                            <div>
+                                <h3>Flask</h3>
+                                <p>Experience</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img class="icon" src="./assets/database-icon.png" alt="MySQL">
+                            <div>
+                                <h3>MySQL</h3>
+                                <p>Proficient</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img class="icon" src="./assets/git-icon.png" alt="MySQL">
+                            <div>
+                                <h3>GIT</h3>
+                                <p>Proficient</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>        
+                <div class="experience-details-secondary">
+                    <h1>Frontend Development</h1>
+                    <div class="article-container">
+                        <article>
+                            <img class="icon" src="./assets/html-icon.png" alt="MySQL">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experience</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img class="icon" src="./assets/cascading-style-sheets-icon.png" alt="MySQL">
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Experience</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img class="icon" src="./assets/java-script-icon.png" alt="MySQL">
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Proficient</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>    
+        </div>
+        <img class="Arrow icon" src="./assets/keyboard_double_arrow_down.png" alt="arrow-down" onclick="location.href='./#projects'">    
+    </section>
+    <section id="projects">
+        <p class="section-text-p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-container">
+            <div class="project-container">
+                <div class="project-details-container">
+                    <div class="project-article-container">
+                        <img src="./assets/project-1.png" alt="project-1" class="project-image">
+                    </div>
+                    <h2>Project One</h2>
+                    <div class="btn-container">
+                        <button class="btn-type1" onclick="window.open('https://github.com/Kingloco1990')"> Github </button>
+                        <button class="btn-type2" onclick="window.open('https://github.com/Kingloco1990')"> Live Demo </button>
+                    </div>
+                </div>
+                <div class="project-details-container">
+                    <div class="project-article-container">
+                        <img src="./assets/project-2.png" alt="project-1" class="project-image">
+                    </div>
+                    <h2>Project Two</h2>
+                    <div class="btn-container">
+                        <button class="btn-type1" onclick="window.open('https://github.com/Kingloco1990')"> Github </button>
+                        <button class="btn-type2" onclick="window.open('https://github.com/Kingloco1990')"> Live Demo </button>
+                    </div>
+                </div>
+                <div class="project-details-container">
+                    <div class="project-article-container">
+                        <img src="./assets/project-3.png" alt="project-1" class="project-image">
+                    </div>
+                    <h2>Project Three</h2>
+                    <div class="btn-container">
+                        <button class="btn-type1" onclick="window.open('https://github.com/Kingloco1990')"> Github </button>
+                        <button class="btn-type2" onclick="window.open('https://github.com/Kingloco1990')"> Live Demo </button>
+                    </div>
+                </div>
+            </div>
+            <img class="Arrow icon" src="./assets/keyboard_double_arrow_down.png" alt="arrow-down" onclick="location.href='./#contact'">
+        </div>
+    </section>
+    <section id="contact">
+        <p class="section-text-p1">Reach Out to Me</p>
+        <h1 class="title">Contact Information</h1>
+        <div class="contact-info-container-main">
+            <div class="contact-info-container-secondary">
+                <img src="./assets/email-icon.png" alt="email-icon" class="contact-icon">
+                <p>
+                    <a href="mailto:ransfordnawelbeck@gmail.com">ransfordnawelbeck@gmail.com</a>
+                </p>
+            </div>
+            <div class="contact-info-container-secondary">
+                <img src="./assets/linkedin-icon.png" alt="linkedin-icon" class="contact-icon">
+                <p>
+                    <a href="https://www.linkedin.com/in/ing-ransford-nii-ayitey-welbeck-a67427100/">Linkedin</a>
+                </p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav id="footer-nav">
+            <div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <p>Copyright &#169; 2024 Ransford Welbeck. All Rights Reserved.</p>
+            </div>
+        </nav>
+        
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
